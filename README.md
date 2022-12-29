@@ -1,16 +1,16 @@
 # OHUDropships
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Ohus mod
 https://ludeon.com/forums/index.php?topic=31906
 
 This is an old mod converted to an addon mod for https://steamcommunity.com/workshop/filedetails/?id=1845423808]SRTS Expanded since the original functionality of the mod was very similar
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 The OHU Dropship: A sturdy all-purpose aircraft with a focus on cargo capacity and range.
 
@@ -48,7 +48,7 @@ Fuel capacity: 500L
 Fuel efficiency: 1 fuel/tile
 Cargo capacity: 300kg
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -61,3 +61,5 @@ Cargo capacity: 300kg
 
 
 
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2374816146]Last updated 2022-12-29
