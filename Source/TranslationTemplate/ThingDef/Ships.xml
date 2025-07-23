@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: OHU Albatros -->
+  <OHUAlbatros.label>OHU Albatros</OHUAlbatros.label>
+  <!-- EN: The OHU Albatros: A lightweight glider used for gentle travel. Very fuel efficient over long distances \n	\nPassenger cap: 2\nSpeed: 2 tile/hr\nFuel capacity: 500L\nFuel efficiency: 1 fuel/tile\nCargo capacity: 300kg -->
+  <OHUAlbatros.description>The OHU Albatros: A lightweight glider used for gentle travel. Very fuel efficient over long distances 
+	
+Passenger cap: 2
+Speed: 2 tile/hr
+Fuel capacity: 500L
+Fuel efficiency: 1 fuel/tile
+Cargo capacity: 300kg</OHUAlbatros.description>
+  <!-- EN: OHU Albatros active -->
+  <OHUAlbatros_Active.label>OHU Albatros active</OHUAlbatros_Active.label>
+  <!-- EN: OHU Albatros incoming -->
+  <OHUAlbatros_Incoming.label>OHU Albatros incoming</OHUAlbatros_Incoming.label>
+  <!-- EN: OHU Albatros leaving -->
+  <OHUAlbatros_Leaving.label>OHU Albatros leaving</OHUAlbatros_Leaving.label>
+  <!-- EN: OHU Dropship -->
+  <OHUDropship.label>OHU Dropship</OHUDropship.label>
+  <!-- EN: The OHU Dropship: A sturdy all-purpose aircraft with a focus on cargo capacity and range. \n	\nPassenger cap: 20\nSpeed: 15 tile/hr\nFuel capacity: 4000L\nFuel efficiency: 1 fuel/tile\nCargo capacity: 8000kg -->
+  <OHUDropship.description>The OHU Dropship: A sturdy all-purpose aircraft with a focus on cargo capacity and range. 
+	
+Passenger cap: 20
+Speed: 15 tile/hr
+Fuel capacity: 4000L
+Fuel efficiency: 1 fuel/tile
+Cargo capacity: 8000kg</OHUDropship.description>
+  <!-- EN: OHU Dropship active -->
+  <OHUDropship_Active.label>OHU Dropship active</OHUDropship_Active.label>
+  <!-- EN: OHU Dropship incoming -->
+  <OHUDropship_Incoming.label>OHU Dropship incoming</OHUDropship_Incoming.label>
+  <!-- EN: OHU Dropship leaving -->
+  <OHUDropship_Leaving.label>OHU Dropship leaving</OHUDropship_Leaving.label>
+  <!-- EN: OHU Kestrel -->
+  <OHUKestrel.label>OHU Kestrel</OHUKestrel.label>
+  <!-- EN: The OHU Kestrel: A smaller variant of the regular dropship. Limited cargo area and passenger seats and high fuel consumption are compensated by increased speed. \n	\nPassenger cap: 2\nSpeed: 30 tile/hr\nFuel capacity: 2000L\nFuel efficiency: 7 fuel/tile\nCargo capacity: 2500kg -->
+  <OHUKestrel.description>The OHU Kestrel: A smaller variant of the regular dropship. Limited cargo area and passenger seats and high fuel consumption are compensated by increased speed. 
+	
+Passenger cap: 2
+Speed: 30 tile/hr
+Fuel capacity: 2000L
+Fuel efficiency: 7 fuel/tile
+Cargo capacity: 2500kg</OHUKestrel.description>
+  <!-- EN: OHU Kestrel active -->
+  <OHUKestrel_Active.label>OHU Kestrel active</OHUKestrel_Active.label>
+  <!-- EN: OHU Kestrel incoming -->
+  <OHUKestrel_Incoming.label>OHU Kestrel incoming</OHUKestrel_Incoming.label>
+  <!-- EN: OHU Kestrel leaving -->
+  <OHUKestrel_Leaving.label>OHU Kestrel leaving</OHUKestrel_Leaving.label>
+</LanguageData>

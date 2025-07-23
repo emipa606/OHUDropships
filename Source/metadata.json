@@ -2,5 +2,14 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 18193,
+  "CodeBaseSize": 67,
+  "LastXmlCleaning": "2025-07-23T20:33:25.2335326+02:00",
+  "SocialImageSet": true,
+  "SearchTags": " srts expanded"
 }
