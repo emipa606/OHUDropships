@@ -40,17 +40,28 @@ Cargo capacity: 300kg</description>
     </costList>
     <comps>
       <li Class="CompProperties_Transporter">
+        <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
         <restEffectiveness>0.75</restEffectiveness>
         <massCapacity>300</massCapacity>
+        <max1PerGroup>true</max1PerGroup>
+      </li>
+      <li Class="CompProperties_Launchable">
+        <fuelPerTile>1</fuelPerTile>
+        <minFuelCost>50</minFuelCost>
+        <skyfallerLeaving>OHUAlbatros_Leaving</skyfallerLeaving>
+        <worldObjectDef>TravelingSRTS</worldObjectDef>
+        <cooldownTicks>5000</cooldownTicks>
+        <!-- 2 hours -->
+        <fixedLaunchDistanceMax>42</fixedLaunchDistanceMax>
+        <cooldownEndedMessage>{0} is ready to launch again.</cooldownEndedMessage>
       </li>
       <li Class="SRTS.CompProperties_LaunchableSRTS">
+        <shipDef>SRTSSkip</shipDef>
         <!-- required for SRTS like functionality (ie. space ship reusable drop pod -->
         <travelSpeed>2</travelSpeed>
-        <fuelPerTile>1</fuelPerTile>
         <minPassengers>1</minPassengers>
         <maxPassengers>2</maxPassengers>
         <spaceFaring>false</spaceFaring>
-        <shuttleBayLanding>false</shuttleBayLanding>
       </li>
       <li Class="CompProperties_Refuelable">
         <!-- comp for allowing to fuel the srts, don't remove -->
@@ -83,7 +94,7 @@ Cargo capacity: 300kg</description>
       <ChunkSlagSteel>4</ChunkSlagSteel>
     </killedLeavings>
   </ThingDef>
-  <ThingDef ParentName="SkyfallerBase">
+  <ThingDef ParentName="ShuttleSkyfallerBase">
     <defName>OHUAlbatros_Incoming</defName>
     <label>OHU Albatros incoming</label>
     <thingClass>SRTS.SRTSIncoming</thingClass>
@@ -102,7 +113,7 @@ Cargo capacity: 300kg</description>
       <motesPerCell>0</motesPerCell>
     </skyfaller>
   </ThingDef>
-  <ThingDef ParentName="SkyfallerBase">
+  <ThingDef ParentName="ShuttleSkyfallerBase">
     <defName>OHUAlbatros_Leaving</defName>
     <label>OHU Albatros leaving</label>
     <thingClass>SRTS.SRTSLeaving</thingClass>
@@ -185,17 +196,28 @@ Cargo capacity: 2500kg</description>
     </costList>
     <comps>
       <li Class="CompProperties_Transporter">
+        <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
         <restEffectiveness>0.5</restEffectiveness>
         <massCapacity>2500</massCapacity>
+        <max1PerGroup>true</max1PerGroup>
+      </li>
+      <li Class="CompProperties_Launchable">
+        <fuelPerTile>7</fuelPerTile>
+        <minFuelCost>50</minFuelCost>
+        <skyfallerLeaving>OHUKestrel_Leaving</skyfallerLeaving>
+        <worldObjectDef>TravelingSRTS</worldObjectDef>
+        <cooldownTicks>5000</cooldownTicks>
+        <!-- 2 hours -->
+        <fixedLaunchDistanceMax>42</fixedLaunchDistanceMax>
+        <cooldownEndedMessage>{0} is ready to launch again.</cooldownEndedMessage>
       </li>
       <li Class="SRTS.CompProperties_LaunchableSRTS">
+        <shipDef>SRTSSkip</shipDef>
         <!-- required for SRTS like functionality (ie. space ship reusable drop pod -->
         <travelSpeed>30</travelSpeed>
-        <fuelPerTile>7</fuelPerTile>
         <minPassengers>1</minPassengers>
         <maxPassengers>2</maxPassengers>
         <spaceFaring>false</spaceFaring>
-        <shuttleBayLanding>false</shuttleBayLanding>
       </li>
       <li Class="CompProperties_Refuelable">
         <!-- comp for allowing to fuel the srts, don't remove -->
@@ -207,7 +229,6 @@ Cargo capacity: 2500kg</description>
             <li>Chemfuel</li>
           </thingDefs>
         </fuelFilter>
-        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <initialFuelPercent>0.25</initialFuelPercent>
         <autoRefuelPercent>1</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>
@@ -237,7 +258,7 @@ Cargo capacity: 2500kg</description>
       <ChunkSlagSteel>8</ChunkSlagSteel>
     </killedLeavings>
   </ThingDef>
-  <ThingDef ParentName="SkyfallerBase">
+  <ThingDef ParentName="ShuttleSkyfallerBase">
     <defName>OHUKestrel_Incoming</defName>
     <label>OHU Kestrel incoming</label>
     <thingClass>SRTS.SRTSIncoming</thingClass>
@@ -256,7 +277,7 @@ Cargo capacity: 2500kg</description>
       <motesPerCell>0</motesPerCell>
     </skyfaller>
   </ThingDef>
-  <ThingDef ParentName="SkyfallerBase">
+  <ThingDef ParentName="ShuttleSkyfallerBase">
     <defName>OHUKestrel_Leaving</defName>
     <label>OHU Kestrel leaving</label>
     <thingClass>SRTS.SRTSLeaving</thingClass>
@@ -344,15 +365,25 @@ Cargo capacity: 8000kg</description>
       <li Class="CompProperties_Transporter">
         <restEffectiveness>2.5</restEffectiveness>
         <massCapacity>8000</massCapacity>
+        <max1PerGroup>true</max1PerGroup>
+      </li>
+      <li Class="CompProperties_Launchable">
+        <fuelPerTile>1</fuelPerTile>
+        <minFuelCost>50</minFuelCost>
+        <skyfallerLeaving>OHUDropship_Leaving</skyfallerLeaving>
+        <worldObjectDef>TravelingSRTS</worldObjectDef>
+        <cooldownTicks>5000</cooldownTicks>
+        <!-- 2 hours -->
+        <fixedLaunchDistanceMax>42</fixedLaunchDistanceMax>
+        <cooldownEndedMessage>{0} is ready to launch again.</cooldownEndedMessage>
       </li>
       <li Class="SRTS.CompProperties_LaunchableSRTS">
+        <shipDef>SRTSSkip</shipDef>
         <!-- required for SRTS like functionality (ie. space ship reusable drop pod -->
         <travelSpeed>15</travelSpeed>
-        <fuelPerTile>1</fuelPerTile>
         <minPassengers>1</minPassengers>
         <maxPassengers>20</maxPassengers>
         <spaceFaring>true</spaceFaring>
-        <shuttleBayLanding>false</shuttleBayLanding>
       </li>
       <li Class="CompProperties_Refuelable">
         <!-- comp for allowing to fuel the srts, don't remove -->
@@ -364,7 +395,6 @@ Cargo capacity: 8000kg</description>
             <li>Chemfuel</li>
           </thingDefs>
         </fuelFilter>
-        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <initialFuelPercent>0.25</initialFuelPercent>
         <autoRefuelPercent>1</autoRefuelPercent>
         <showFuelGizmo>true</showFuelGizmo>

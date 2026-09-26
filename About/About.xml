@@ -22,29 +22,29 @@
   <loadAfter>
     <li>Shashlichnik.srtsexpanded</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Ohus mod
 https://ludeon.com/forums/index.php?topic=31906
 
 This is an old mod converted to an addon mod for [url=https://steamcommunity.com/workshop/filedetails/?id=2878587061]SRTS Expanded[/url] since the original functionality of the mod was very similar
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
     [tr]
-        [td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/OHUDropships][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/OHUDropships][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 The OHU Dropship: A sturdy all-purpose aircraft with a focus on cargo capacity and range.
 
-[img]https://i.imgur.com/EcZUrO1.png[/img]
+[img]https://img.litet.net/EcZUrO1.png[/img]
 
 Manufacturer: OHU (Orbital Hubs United)
 Passenger cap: 20
@@ -56,7 +56,7 @@ Cargo capacity: 8000kg
 
 The OHU Kestrel: A smaller variant of the regular dropship. Limited cargo area and passenger seats and high fuel consumption are compensated by increased speed.
 
-[img]https://i.imgur.com/eRjrDUJ.png[/img]
+[img]https://img.litet.net/eRjrDUJ.png[/img]
 
 Manufacturer: OHU (Orbital Hubs United)
 Passenger cap: 2
@@ -67,7 +67,7 @@ Cargo capacity: 2500kg
 
 The OHU Albatros: A lightweight glider used for gentle travel. Very fuel efficient over long distances.
 	
-[img]https://i.imgur.com/wuyqHIL.png[/img]
+[img]https://img.litet.net/wuyqHIL.png[/img]
 
 Manufacturer: OHU (Orbital Hubs United)
 Speed: 2 tile/hr
@@ -75,17 +75,17 @@ Fuel capacity: 500L
 Fuel efficiency: 1 fuel/tile
 Cargo capacity: 300kg
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2374816146][img]https://img.shields.io/github/v/release/emipa606/OHUDropships?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  srts expanded</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2374816146][img]https://img.shields.io/github/v/release/emipa606/OHUDropships?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | srts expanded</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
